@@ -7,17 +7,24 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; */
-  --mask:
+  /* --mask:
     radial-gradient(134.16px at 50% calc(100% - 180px), #000 99%, #0000 101%) calc(50% - 120px) 0/240px 100%,
     radial-gradient(134.16px at 50% calc(100% + 120px), #0000 99%, #000 101%) 50% calc(100% - 60px)/240px 100% repeat-x;
   -webkit-mask: var(--mask);
-  mask: var(--mask);
-  background: url("https://rare-gallery.com/mocahbig/1375745-osa-rainbow-six-siege-rs6-game-4k-pc-wallpaper.jpg") no-repeat center center/cover;
+  mask: var(--mask); */
+  /* background: url("https://rare-gallery.com/mocahbig/1375745-osa-rainbow-six-siege-rs6-game-4k-pc-wallpaper.jpg") no-repeat center center/cover; */
+  background: url("../src/assets/smbanner.png") no-repeat center center/cover;
   height: 80vh;
 
 }
 
+@media only screen and (min-width: 768px) {
+  .banner-img {
+    background: url("../src/assets/banner.png") no-repeat center center/cover;
+    height: 80vh;
 
+  }
+}
 
 .sponsored_bg {
   background-image: url("https://i.ibb.co/Y7kKwDf/52991634281-aea6b68e49-h.jpg");

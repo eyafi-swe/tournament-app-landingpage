@@ -25,13 +25,13 @@ const Banner = () => {
     };
   }, []);
   return (
-    <div className="relative ">
+    <div className="relative  ">
       <div className="relative banner-img  w-full text-white flex justify-center items-center">
-        <div className="absolute md:w-10/12 w-11/12 rounded-lg bg-rose-600 opacity-50 h-80">
+        <div className="md:hidden absolute md:w-10/12 w-full rounded-lg bg-[#0c1a28]  opacity-75 h-96">
 
 
         </div>
-        <div className="absolute ml-10">
+        <div className="absolute ml-10 md:w-10/12 w-11/12">
           <h1 className="md:text-6xl text-5xl font-bold w-max">CHOLO KHELI</h1>
 
           <p className="text-xl my-7 w-full  md:w-1/2 md:leading-normal">
