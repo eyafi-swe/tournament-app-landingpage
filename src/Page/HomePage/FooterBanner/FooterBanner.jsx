@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebook, } from "react-icons/fa";
-import { BiLogoGmail } from 'react-icons/bi'
+import { BiLogoGmail } from 'react-icons/bi';
+import { IoLogoYoutube } from "react-icons/io5";
 const FooterBanner = () => {
   return (
     <div className="footer_banner_bg mt-32">
@@ -10,9 +11,14 @@ const FooterBanner = () => {
             <FaFacebook className=" text-white w-7 h-7 shadow-2xl" />
           </div>
         </a>
-        <a href="mailto:cholokheli@gmail.com" >
+        <a href="mailto:cholokheli.pro@gmail.com" >
           <div className="bg-[#d31c3e] duration-300 rounded-es-2xl rounded rounded-se-2xl w-20 h-20 hover:bg-[#0c1a28] flex justify-center items-center">
             <BiLogoGmail className=" text-white w-7 h-7 shadow-2xl" />
+          </div>
+        </a>
+        <a href="https://youtube.com/@cholokheliapp?si=PR0uMPoptfdHRSP9" target="_blank" >
+          <div className="bg-[#d31c3e] duration-300 rounded-es-2xl rounded rounded-se-2xl w-20 h-20 hover:bg-[#0c1a28] flex justify-center items-center">
+            <IoLogoYoutube className=" text-white w-7 h-7 shadow-2xl" />
           </div>
         </a>
 
