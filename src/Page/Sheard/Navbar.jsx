@@ -83,7 +83,7 @@ const Navbar = () => {
             <button className=" w-20 mx-2">
               <img src={GBLogo} alt="" />
             </button>
-            <p className="text-lg font-semibold">CHOLO KHELI</p>
+            <p className="text-lg font-semibold">Try Sports</p>
           </div>
         </div>
         <div className="navbar-center hidden lg:flex">

@@ -13,16 +13,14 @@
   -webkit-mask: var(--mask);
   mask: var(--mask); */
   /* background: url("https://rare-gallery.com/mocahbig/1375745-osa-rainbow-six-siege-rs6-game-4k-pc-wallpaper.jpg") no-repeat center center/cover; */
-  background: url("../src/assets/smbanner.png") no-repeat center center/cover;
+  background: url("../src/assets/smbanner1.png") no-repeat center center/cover;
   height: 80vh;
-
 }
 
 @media only screen and (min-width: 768px) {
   .banner-img {
-    background: url("../src/assets/banner.png") no-repeat center center/cover;
+    background: url("../src/assets/banner2.png") no-repeat center center/cover;
     height: 80vh;
-
   }
 }
 

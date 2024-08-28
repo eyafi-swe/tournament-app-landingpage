@@ -11,12 +11,12 @@ const FooterBanner = () => {
             <FaFacebook className=" text-white w-7 h-7 shadow-2xl" />
           </div>
         </a>
-        <a href="mailto:cholokheli.pro@gmail.com" >
+        <a href="mailto:trysports@gmail.com" >
           <div className="bg-[#d31c3e] duration-300 rounded-es-2xl rounded rounded-se-2xl w-20 h-20 hover:bg-[#0c1a28] flex justify-center items-center">
             <BiLogoGmail className=" text-white w-7 h-7 shadow-2xl" />
           </div>
         </a>
-        <a href="https://youtube.com/@cholokheliapp?si=PR0uMPoptfdHRSP9" target="_blank" >
+        <a href="#" >
           <div className="bg-[#d31c3e] duration-300 rounded-es-2xl rounded rounded-se-2xl w-20 h-20 hover:bg-[#0c1a28] flex justify-center items-center">
             <IoLogoYoutube className=" text-white w-7 h-7 shadow-2xl" />
           </div>

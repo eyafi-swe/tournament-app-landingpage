@@ -8,9 +8,9 @@ import Mock3 from "../../../assets/mock3.png";
 const publications = [
   {
     "id": 1,
-    "name": "Cholo Kheli App",
+    "name": "Try Sports App",
     "gameImage": Mock1,
-    "details": "Cholo Kheli is a Tournament App. User can easily register and participate to any tournament. Win atttractive prizes."
+    "details": "Try Sports is a Tournament App. User can easily register and participate to any tournament. Win atttractive prizes."
   },
   {
     "id": 2,
@@ -38,7 +38,7 @@ const Publications = () => {
       <div className="w-10/12 mx-auto pt-20">
         <div className=" mb-16 flex justify-center flex-col items-center">
           <small className="uppercase inline-block bg-[#d31c3e] py-1 w-max font-bold rounded-ss-lg rounded-ee-xl rounded px-4">
-            Cholo Kheli
+            Try Sports
           </small>
           <h2 className="border-b-4 pb-1 px-2 w-max border-red-500 md:text-3xl text-xl font-semibold capitalize mt-5">
             About App

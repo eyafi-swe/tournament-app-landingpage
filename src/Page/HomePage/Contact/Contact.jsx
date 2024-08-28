@@ -10,7 +10,7 @@ const Contact = () => {
           <p className="mb-10">
             Contact with us for any query and support.
           </p>
-          <p className="mb-10">cholokheli@gmail.com</p>
+          <p className="mb-10">trysports@gmail.com</p>
         </div>
       </div>
       <div >
